@@ -7,7 +7,7 @@ from querys import ( recommender
 app = FastAPI()
 
 # Version y nombre de API.    
-app.title = "Restaurant Reccomendation - Machine Learning"
+app.title = "Restaurant Recommendation - Machine Learning"
 app.version = "1.0 Alfa"
 
 # Configurar middleware CORS.
@@ -20,8 +20,8 @@ app.add_middleware(
 )
 
 # Recomendar peliculas
-@app.get("/recommender/", tags=['Search'])
-def recomendacion(titulo:str):
-    titulo = titulo.lower()
-    recomendacion = recommender(titulo)
+@app.get("/recommender/", tags=['Recommend'])
+def recomendacion(name:str):
+    name= name.lower()
+    recomendacion = recommender(name)
     return recomendacion

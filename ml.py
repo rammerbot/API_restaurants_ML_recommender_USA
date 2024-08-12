@@ -6,6 +6,8 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from scipy.sparse import hstack
 
+from geopy.distance import geodesic
+
 # importar sqlalchemy.
 from sqlalchemy import create_engine
 
@@ -20,33 +22,7 @@ from models import engine
 # Cargar datos a Dataframe.
 data = pd.read_sql('restaurants', engine)
 
-'''Las lineas comentadas a contiuacion pertenecen al preprocesamiento de los
-datos, la intencion es realizarlo una vez y guardar los datos, de esta manera se
-asegura que el consumo de recursos no sera afectado cada vez que se inicie el servidor'''
-# Descargar recursos necesarios de nltk.
-# nltk.download('punkt')
-# nltk.download('stopwords')
-
-# # Preprocesar texto.
-# stop_words = set(stopwords.words('english'))
-
-# def preprocess(text):
-#     if pd.isna(text):
-#         return ""
-#     text = text.lower()
-#     words = word_tokenize(text)
-#     words = [word for word in words if word.isalnum() and word not in stop_words]
-#     return ' '.join(words)
-
-# # Definir las columnas a procesar.
 columnas_a_procesar = ['name', 'address',  'combined_categories']
-
-# # Aplicar preprocesamiento a cada columna y mantener las palabras procesadas en columnas individuales.
-# for column in columns_to_preprocess:
-#     data[f'processed_{column}'] = data[column].apply(preprocess)
-
-## Guardar en base de datos.
-# data.to_sql('machine_learning', engine, if_exists='replace')
 
 # Vectorizar cada columna procesada usando TF-IDF.
 dic_vectorizadores = {}
@@ -66,21 +42,41 @@ combinacion_matrices = hstack(list_matrices).tocsr() if len(list_matrices) > 1 e
 def calcular_similitud_coseno(indice_x, matrix):
     return cosine_similarity(matrix[indice_x], matrix).flatten()
 
-# Obtener recomendacion.
-def get_recommendations(name, data, top_n=5):
+# Calcular la distancia geográfica entre dos ubicaciones
+def calcular_distancia(coord1, coord2):
+    return geodesic(coord1, coord2).kilometers
+
+
+def get_recommendations(name, data, top_n=5, max_dist_km=10):
     if name not in data['name'].values:
-        return f"El restaurant'{name}' no se encuentra en nuestra base de datos."
+        return f"El restaurante '{name}' no se encuentra en nuestra base de datos."
     
     indice_x = data[data['name'] == name].index[0]
+    coord_restaurante = (data['latitude'].iloc[indice_x], data['longitude'].iloc[indice_x])
     resultados = calcular_similitud_coseno(indice_x, combinacion_matrices)
     
     resultados = list(enumerate(resultados))
     resultados = sorted(resultados, key=lambda x: x[1], reverse=True)
     
-    resultados = resultados[1:top_n+1]
-    movie_indices = [i[0] for i in resultados]
-    return data['name'].iloc[movie_indices].tolist()
-
-   
+    nombres_unicos = set()
+    recomendaciones = []
     
+    for idx, score in resultados[1:]:
+        nombre = data['name'].iloc[idx]
+        avg_rating = data['avg_rating'].iloc[idx]
+        direccion = data['address'].iloc[idx].replace(f'{nombre}, ', '')
+        coord_recomendacion = (data['latitude'].iloc[idx], data['longitude'].iloc[idx])
+        distancia = calcular_distancia(coord_restaurante, coord_recomendacion)
+        
+        if nombre not in nombres_unicos and distancia <= max_dist_km:
+            recomendaciones.append((nombre, direccion, avg_rating, distancia))
+            nombres_unicos.add(nombre)
+        
+        if len(recomendaciones) == top_n:
+            break
+
+    # Ordenar las recomendaciones por avg_rating en orden descendente
+    recomendaciones_ordenadas = sorted(recomendaciones, key=lambda x: x[2], reverse=True)
+    
+    return [(rec[0], rec[1], rec[2]) for rec in recomendaciones_ordenadas]
  
