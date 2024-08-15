@@ -1,5 +1,3 @@
-from typing import Optional
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from querys import ( recommender, predictor
@@ -9,7 +7,7 @@ from querys import ( recommender, predictor
 app = FastAPI()
 
 # Version y nombre de API.    
-app.title = "Restaurant Recommendation - Machine Learning"
+app.title = "Restaurant Recommendation and Prediction - Machine Learning"
 app.version = "1.0 Alfa"
 
 # Configurar middleware CORS.
@@ -23,7 +21,7 @@ app.add_middleware(
 
 # Recomendar peliculas
 @app.get("/recommender/", tags=['Recommend'])
-def recomendacion(name: str, county: Optional[str] = None):
+def recomendacion(name: str):
     if county:
         name= name.lower()
         county= county.lower()
