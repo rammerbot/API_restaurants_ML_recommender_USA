@@ -6,6 +6,11 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from scipy.sparse import hstack
 
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report
+
+
 from geopy.distance import geodesic
 
 # importar sqlalchemy.
@@ -17,12 +22,14 @@ import pandas as pd
 # Import desde models.
 from models import engine
 
-#engine = create_engine('sqlite:///data/movies.db')
+engine = create_engine('sqlite:///data/restaurants.db')
 
 # Cargar datos a Dataframe.
 data = pd.read_sql('restaurants', engine)
 
-columnas_a_procesar = ['name', 'address',  'combined_categories']
+# Modelo de prediccion
+
+columnas_a_procesar = ['name', 'address', 'cluster_categories']
 
 # Vectorizar cada columna procesada usando TF-IDF.
 dic_vectorizadores = {}
@@ -46,8 +53,9 @@ def calcular_similitud_coseno(indice_x, matrix):
 def calcular_distancia(coord1, coord2):
     return geodesic(coord1, coord2).kilometers
 
-
 def get_recommendations(name, data, top_n=5, max_dist_km=10):
+
+    name = name.lower()
     if name not in data['name'].values:
         return f"El restaurante '{name}' no se encuentra en nuestra base de datos."
     
@@ -67,9 +75,10 @@ def get_recommendations(name, data, top_n=5, max_dist_km=10):
         direccion = data['address'].iloc[idx].replace(f'{nombre}, ', '')
         coord_recomendacion = (data['latitude'].iloc[idx], data['longitude'].iloc[idx])
         distancia = calcular_distancia(coord_restaurante, coord_recomendacion)
+        caracteristicas_clave = data['caracteristicas_clave'].iloc[idx]
         
         if nombre not in nombres_unicos and distancia <= max_dist_km:
-            recomendaciones.append((nombre, direccion, avg_rating, distancia))
+            recomendaciones.append((nombre, direccion, avg_rating, distancia, caracteristicas_clave))
             nombres_unicos.add(nombre)
         
         if len(recomendaciones) == top_n:
@@ -78,5 +87,28 @@ def get_recommendations(name, data, top_n=5, max_dist_km=10):
     # Ordenar las recomendaciones por avg_rating en orden descendente
     recomendaciones_ordenadas = sorted(recomendaciones, key=lambda x: x[2], reverse=True)
     
-    return [(rec[0], rec[1], rec[2]) for rec in recomendaciones_ordenadas]
- 
+    # Retornar las recomendaciones incluyendo la columna 'caracteristicas_clave'
+    return [(rec[0], rec[1], rec[2], rec[4]) for rec in recomendaciones_ordenadas]
+
+# --------------------------------------------------------------------------------------------------------------------------------
+
+# Modelo de prediccion...
+
+# Agrupar por categoria y id de la categoria
+
+filtrado = data[data['reviews_total']!=0]
+
+#Dividir data set
+features=['county_id', 'cluster', 'negative_sentiment','positive_sentiment']
+X = filtrado[features]
+y = filtrado['success']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Entrenar el modelo
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+
+
+
+

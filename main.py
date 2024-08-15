@@ -1,6 +1,8 @@
+from typing import Optional
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from querys import ( recommender
+from querys import ( recommender, predictor
                     )
 
 # instancia de FastApi.
@@ -21,7 +23,24 @@ app.add_middleware(
 
 # Recomendar peliculas
 @app.get("/recommender/", tags=['Recommend'])
-def recomendacion(name:str):
-    name= name.lower()
-    recomendacion = recommender(name)
+def recomendacion(name: str, county: Optional[str] = None):
+    if county:
+        name= name.lower()
+        county= county.lower()
+        recomendacion = recommender(name, county)
+    else:
+        name= name.lower()
+        recomendacion = recommender(name)
     return recomendacion
+
+@app.get("/predictor/", tags=['Predictor'])
+def get_predictions(county:str,categoria:str, negativas:int, positivas:int):
+ 
+    prediction = predictor(county, categoria, negativas, positivas)
+    
+    if prediction == 1:
+        return "Predicción: El Negocio tiene alto nivel de éxito."
+    else:
+        return "Predicción: El negocio tiene un idice bajo de exito."
+    
+    
