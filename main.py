@@ -22,13 +22,8 @@ app.add_middleware(
 # Recomendar peliculas
 @app.get("/recommender/", tags=['Recommend'])
 def recomendacion(name: str):
-    if county:
-        name= name.lower()
-        county= county.lower()
-        recomendacion = recommender(name, county)
-    else:
-        name= name.lower()
-        recomendacion = recommender(name)
+    name= name.lower()
+    recomendacion = recommender(name)
     return recomendacion
 
 @app.get("/predictor/", tags=['Predictor'])
