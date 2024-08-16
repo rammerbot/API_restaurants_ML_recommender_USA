@@ -1,10 +1,10 @@
-from ml import get_recommendations, data, model, pd
+from ml import get_recommendations, data,data_rec, model, pd
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Sistema de Recomendacion
 def recommender(restaurant: str):
    
-    recommendations = get_recommendations(name=restaurant, data=data)
+    recommendations = get_recommendations(name=restaurant, data_rec=data_rec)
     return recommendations
 
 # Sistema de prediccion. 

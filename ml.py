@@ -28,7 +28,7 @@ engine = create_engine('sqlite:///data/restaurants.db')
 data = pd.read_sql('restaurants', engine)
 
 # Modelo de prediccion
-
+data_rec = data[data['COUNTY_NAM']== 'los angeles']
 columnas_a_procesar = ['name', 'address', 'cluster_categories']
 
 # Vectorizar cada columna procesada usando TF-IDF.
@@ -38,7 +38,7 @@ list_matrices = []
 # Vectorizar los datos con Tfid.
 for column in columnas_a_procesar:
     vectorizer = TfidfVectorizer(max_features=31000)
-    matrizado = vectorizer.fit_transform(data[f'{column}'])
+    matrizado = vectorizer.fit_transform(data_rec[f'{column}'])
     dic_vectorizadores[column] = vectorizer
     list_matrices.append(matrizado)
 
@@ -53,14 +53,14 @@ def calcular_similitud_coseno(indice_x, matrix):
 def calcular_distancia(coord1, coord2):
     return geodesic(coord1, coord2).kilometers
 
-def get_recommendations(name, data, top_n=5, max_dist_km=10):
+def get_recommendations(name, data_rec, top_n=5, max_dist_km=10):
 
     name = name.lower()
-    if name not in data['name'].values:
+    if name not in data_rec['name'].values:
         return f"El restaurante '{name}' no se encuentra en nuestra base de datos."
     
-    indice_x = data[data['name'] == name].index[0]
-    coord_restaurante = (data['latitude'].iloc[indice_x], data['longitude'].iloc[indice_x])
+    indice_x = data_rec[data_rec['name'] == name].index[0]
+    coord_restaurante = (data_rec['latitude'].iloc[indice_x], data_rec['longitude'].iloc[indice_x])
     resultados = calcular_similitud_coseno(indice_x, combinacion_matrices)
     
     resultados = list(enumerate(resultados))
@@ -70,12 +70,12 @@ def get_recommendations(name, data, top_n=5, max_dist_km=10):
     recomendaciones = []
     
     for idx, score in resultados[1:]:
-        nombre = data['name'].iloc[idx]
-        avg_rating = data['avg_rating'].iloc[idx]
-        direccion = data['address'].iloc[idx].replace(f'{nombre}, ', '')
-        coord_recomendacion = (data['latitude'].iloc[idx], data['longitude'].iloc[idx])
+        nombre = data_rec['name'].iloc[idx]
+        avg_rating = data_rec['avg_rating'].iloc[idx]
+        direccion = data_rec['address'].iloc[idx].replace(f'{nombre}, ', '')
+        coord_recomendacion = (data_rec['latitude'].iloc[idx], data_rec['longitude'].iloc[idx])
         distancia = calcular_distancia(coord_restaurante, coord_recomendacion)
-        caracteristicas_clave = data['caracteristicas_clave'].iloc[idx]
+        caracteristicas_clave = data_rec['caracteristicas_clave'].iloc[idx]
         
         if nombre not in nombres_unicos and distancia <= max_dist_km:
             recomendaciones.append((nombre, direccion, avg_rating, distancia, caracteristicas_clave))
