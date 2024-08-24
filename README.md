@@ -16,6 +16,9 @@
 
 **📈 Visualización de Datos:** La empresa destaca en la visualización de datos, creando dashboards interactivos y gráficos intuitivos que facilitan la comprensión y el análisis de grandes volúmenes de datos. Herramientas como Tableau y Power BI son parte de su arsenal para presentar datos de manera clara y atractiva.
 
+**🔮 Equipo de trabajo:** La empresa cuenta con equipo profesional y bien preparado.
+![equipo de trabajo](equipo.png)
+
 
 ## Contenido
 1. [Introducción](#introducción)
