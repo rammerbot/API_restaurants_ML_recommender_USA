@@ -1,0 +1,1562 @@
+[
+    {
+        "NAME": "Alabama",
+        "B01003_001E": "5028092",
+        "state": "01",
+        "Year": 2022
+    },
+    {
+        "NAME": "Alaska",
+        "B01003_001E": "734821",
+        "state": "02",
+        "Year": 2022
+    },
+    {
+        "NAME": "Arizona",
+        "B01003_001E": "7172282",
+        "state": "04",
+        "Year": 2022
+    },
+    {
+        "NAME": "Arkansas",
+        "B01003_001E": "3018669",
+        "state": "05",
+        "Year": 2022
+    },
+    {
+        "NAME": "California",
+        "B01003_001E": "39356104",
+        "state": "06",
+        "Year": 2022
+    },
+    {
+        "NAME": "Colorado",
+        "B01003_001E": "5770790",
+        "state": "08",
+        "Year": 2022
+    },
+    {
+        "NAME": "Connecticut",
+        "B01003_001E": "3611317",
+        "state": "09",
+        "Year": 2022
+    },
+    {
+        "NAME": "Delaware",
+        "B01003_001E": "993635",
+        "state": "10",
+        "Year": 2022
+    },
+    {
+        "NAME": "District of Columbia",
+        "B01003_001E": "670587",
+        "state": "11",
+        "Year": 2022
+    },
+    {
+        "NAME": "Florida",
+        "B01003_001E": "21634529",
+        "state": "12",
+        "Year": 2022
+    },
+    {
+        "NAME": "Georgia",
+        "B01003_001E": "10722325",
+        "state": "13",
+        "Year": 2022
+    },
+    {
+        "NAME": "Hawaii",
+        "B01003_001E": "1450589",
+        "state": "15",
+        "Year": 2022
+    },
+    {
+        "NAME": "Idaho",
+        "B01003_001E": "1854109",
+        "state": "16",
+        "Year": 2022
+    },
+    {
+        "NAME": "Illinois",
+        "B01003_001E": "12757634",
+        "state": "17",
+        "Year": 2022
+    },
+    {
+        "NAME": "Indiana",
+        "B01003_001E": "6784403",
+        "state": "18",
+        "Year": 2022
+    },
+    {
+        "NAME": "Iowa",
+        "B01003_001E": "3188836",
+        "state": "19",
+        "Year": 2022
+    },
+    {
+        "NAME": "Kansas",
+        "B01003_001E": "2935922",
+        "state": "20",
+        "Year": 2022
+    },
+    {
+        "NAME": "Kentucky",
+        "B01003_001E": "4502935",
+        "state": "21",
+        "Year": 2022
+    },
+    {
+        "NAME": "Louisiana",
+        "B01003_001E": "4640546",
+        "state": "22",
+        "Year": 2022
+    },
+    {
+        "NAME": "Maine",
+        "B01003_001E": "1366949",
+        "state": "23",
+        "Year": 2022
+    },
+    {
+        "NAME": "Maryland",
+        "B01003_001E": "6161707",
+        "state": "24",
+        "Year": 2022
+    },
+    {
+        "NAME": "Massachusetts",
+        "B01003_001E": "6984205",
+        "state": "25",
+        "Year": 2022
+    },
+    {
+        "NAME": "Michigan",
+        "B01003_001E": "10057921",
+        "state": "26",
+        "Year": 2022
+    },
+    {
+        "NAME": "Minnesota",
+        "B01003_001E": "5695292",
+        "state": "27",
+        "Year": 2022
+    },
+    {
+        "NAME": "Mississippi",
+        "B01003_001E": "2958846",
+        "state": "28",
+        "Year": 2022
+    },
+    {
+        "NAME": "Missouri",
+        "B01003_001E": "6154422",
+        "state": "29",
+        "Year": 2022
+    },
+    {
+        "NAME": "Montana",
+        "B01003_001E": "1091840",
+        "state": "30",
+        "Year": 2022
+    },
+    {
+        "NAME": "Nebraska",
+        "B01003_001E": "1958939",
+        "state": "31",
+        "Year": 2022
+    },
+    {
+        "NAME": "Nevada",
+        "B01003_001E": "3104817",
+        "state": "32",
+        "Year": 2022
+    },
+    {
+        "NAME": "New Hampshire",
+        "B01003_001E": "1379610",
+        "state": "33",
+        "Year": 2022
+    },
+    {
+        "NAME": "New Jersey",
+        "B01003_001E": "9249063",
+        "state": "34",
+        "Year": 2022
+    },
+    {
+        "NAME": "New Mexico",
+        "B01003_001E": "2112463",
+        "state": "35",
+        "Year": 2022
+    },
+    {
+        "NAME": "New York",
+        "B01003_001E": "19994379",
+        "state": "36",
+        "Year": 2022
+    },
+    {
+        "NAME": "North Carolina",
+        "B01003_001E": "10470214",
+        "state": "37",
+        "Year": 2022
+    },
+    {
+        "NAME": "North Dakota",
+        "B01003_001E": "776874",
+        "state": "38",
+        "Year": 2022
+    },
+    {
+        "NAME": "Ohio",
+        "B01003_001E": "11774683",
+        "state": "39",
+        "Year": 2022
+    },
+    {
+        "NAME": "Oklahoma",
+        "B01003_001E": "3970497",
+        "state": "40",
+        "Year": 2022
+    },
+    {
+        "NAME": "Oregon",
+        "B01003_001E": "4229374",
+        "state": "41",
+        "Year": 2022
+    },
+    {
+        "NAME": "Pennsylvania",
+        "B01003_001E": "12989208",
+        "state": "42",
+        "Year": 2022
+    },
+    {
+        "NAME": "Rhode Island",
+        "B01003_001E": "1094250",
+        "state": "44",
+        "Year": 2022
+    },
+    {
+        "NAME": "South Carolina",
+        "B01003_001E": "5142750",
+        "state": "45",
+        "Year": 2022
+    },
+    {
+        "NAME": "South Dakota",
+        "B01003_001E": "890342",
+        "state": "46",
+        "Year": 2022
+    },
+    {
+        "NAME": "Tennessee",
+        "B01003_001E": "6923772",
+        "state": "47",
+        "Year": 2022
+    },
+    {
+        "NAME": "Texas",
+        "B01003_001E": "29243342",
+        "state": "48",
+        "Year": 2022
+    },
+    {
+        "NAME": "Utah",
+        "B01003_001E": "3283809",
+        "state": "49",
+        "Year": 2022
+    },
+    {
+        "NAME": "Vermont",
+        "B01003_001E": "643816",
+        "state": "50",
+        "Year": 2022
+    },
+    {
+        "NAME": "Virginia",
+        "B01003_001E": "8624511",
+        "state": "51",
+        "Year": 2022
+    },
+    {
+        "NAME": "Washington",
+        "B01003_001E": "7688549",
+        "state": "53",
+        "Year": 2022
+    },
+    {
+        "NAME": "West Virginia",
+        "B01003_001E": "1792967",
+        "state": "54",
+        "Year": 2022
+    },
+    {
+        "NAME": "Wisconsin",
+        "B01003_001E": "5882128",
+        "state": "55",
+        "Year": 2022
+    },
+    {
+        "NAME": "Wyoming",
+        "B01003_001E": "577929",
+        "state": "56",
+        "Year": 2022
+    },
+    {
+        "NAME": "Puerto Rico",
+        "B01003_001E": "3272382",
+        "state": "72",
+        "Year": 2022
+    },
+    {
+        "NAME": "Alabama",
+        "B01003_001E": "4997675",
+        "state": "01",
+        "Year": 2021
+    },
+    {
+        "NAME": "Alaska",
+        "B01003_001E": "735951",
+        "state": "02",
+        "Year": 2021
+    },
+    {
+        "NAME": "Arizona",
+        "B01003_001E": "7079203",
+        "state": "04",
+        "Year": 2021
+    },
+    {
+        "NAME": "Arkansas",
+        "B01003_001E": "3006309",
+        "state": "05",
+        "Year": 2021
+    },
+    {
+        "NAME": "California",
+        "B01003_001E": "39455353",
+        "state": "06",
+        "Year": 2021
+    },
+    {
+        "NAME": "Colorado",
+        "B01003_001E": "5723176",
+        "state": "08",
+        "Year": 2021
+    },
+    {
+        "NAME": "Connecticut",
+        "B01003_001E": "3605330",
+        "state": "09",
+        "Year": 2021
+    },
+    {
+        "NAME": "Delaware",
+        "B01003_001E": "981892",
+        "state": "10",
+        "Year": 2021
+    },
+    {
+        "NAME": "District of Columbia",
+        "B01003_001E": "683154",
+        "state": "11",
+        "Year": 2021
+    },
+    {
+        "NAME": "Florida",
+        "B01003_001E": "21339762",
+        "state": "12",
+        "Year": 2021
+    },
+    {
+        "NAME": "Georgia",
+        "B01003_001E": "10625615",
+        "state": "13",
+        "Year": 2021
+    },
+    {
+        "NAME": "Hawaii",
+        "B01003_001E": "1453498",
+        "state": "15",
+        "Year": 2021
+    },
+    {
+        "NAME": "Idaho",
+        "B01003_001E": "1811617",
+        "state": "16",
+        "Year": 2021
+    },
+    {
+        "NAME": "Illinois",
+        "B01003_001E": "12821813",
+        "state": "17",
+        "Year": 2021
+    },
+    {
+        "NAME": "Indiana",
+        "B01003_001E": "6751340",
+        "state": "18",
+        "Year": 2021
+    },
+    {
+        "NAME": "Iowa",
+        "B01003_001E": "3179090",
+        "state": "19",
+        "Year": 2021
+    },
+    {
+        "NAME": "Kansas",
+        "B01003_001E": "2932099",
+        "state": "20",
+        "Year": 2021
+    },
+    {
+        "NAME": "Kentucky",
+        "B01003_001E": "4494141",
+        "state": "21",
+        "Year": 2021
+    },
+    {
+        "NAME": "Louisiana",
+        "B01003_001E": "4657305",
+        "state": "22",
+        "Year": 2021
+    },
+    {
+        "NAME": "Maine",
+        "B01003_001E": "1357046",
+        "state": "23",
+        "Year": 2021
+    },
+    {
+        "NAME": "Maryland",
+        "B01003_001E": "6148545",
+        "state": "24",
+        "Year": 2021
+    },
+    {
+        "NAME": "Massachusetts",
+        "B01003_001E": "6991852",
+        "state": "25",
+        "Year": 2021
+    },
+    {
+        "NAME": "Michigan",
+        "B01003_001E": "10062512",
+        "state": "26",
+        "Year": 2021
+    },
+    {
+        "NAME": "Minnesota",
+        "B01003_001E": "5670472",
+        "state": "27",
+        "Year": 2021
+    },
+    {
+        "NAME": "Mississippi",
+        "B01003_001E": "2967023",
+        "state": "28",
+        "Year": 2021
+    },
+    {
+        "NAME": "Missouri",
+        "B01003_001E": "6141534",
+        "state": "29",
+        "Year": 2021
+    },
+    {
+        "NAME": "Montana",
+        "B01003_001E": "1077978",
+        "state": "30",
+        "Year": 2021
+    },
+    {
+        "NAME": "Nebraska",
+        "B01003_001E": "1951480",
+        "state": "31",
+        "Year": 2021
+    },
+    {
+        "NAME": "Nevada",
+        "B01003_001E": "3059238",
+        "state": "32",
+        "Year": 2021
+    },
+    {
+        "NAME": "New Hampshire",
+        "B01003_001E": "1372175",
+        "state": "33",
+        "Year": 2021
+    },
+    {
+        "NAME": "New Jersey",
+        "B01003_001E": "9234024",
+        "state": "34",
+        "Year": 2021
+    },
+    {
+        "NAME": "New Mexico",
+        "B01003_001E": "2109366",
+        "state": "35",
+        "Year": 2021
+    },
+    {
+        "NAME": "New York",
+        "B01003_001E": "20114745",
+        "state": "36",
+        "Year": 2021
+    },
+    {
+        "NAME": "North Carolina",
+        "B01003_001E": "10367022",
+        "state": "37",
+        "Year": 2021
+    },
+    {
+        "NAME": "North Dakota",
+        "B01003_001E": "773344",
+        "state": "38",
+        "Year": 2021
+    },
+    {
+        "NAME": "Ohio",
+        "B01003_001E": "11769923",
+        "state": "39",
+        "Year": 2021
+    },
+    {
+        "NAME": "Oklahoma",
+        "B01003_001E": "3948136",
+        "state": "40",
+        "Year": 2021
+    },
+    {
+        "NAME": "Oregon",
+        "B01003_001E": "4207177",
+        "state": "41",
+        "Year": 2021
+    },
+    {
+        "NAME": "Pennsylvania",
+        "B01003_001E": "12970650",
+        "state": "42",
+        "Year": 2021
+    },
+    {
+        "NAME": "Rhode Island",
+        "B01003_001E": "1091949",
+        "state": "44",
+        "Year": 2021
+    },
+    {
+        "NAME": "South Carolina",
+        "B01003_001E": "5078903",
+        "state": "45",
+        "Year": 2021
+    },
+    {
+        "NAME": "South Dakota",
+        "B01003_001E": "881785",
+        "state": "46",
+        "Year": 2021
+    },
+    {
+        "NAME": "Tennessee",
+        "B01003_001E": "6859497",
+        "state": "47",
+        "Year": 2021
+    },
+    {
+        "NAME": "Texas",
+        "B01003_001E": "28862581",
+        "state": "48",
+        "Year": 2021
+    },
+    {
+        "NAME": "Utah",
+        "B01003_001E": "3231370",
+        "state": "49",
+        "Year": 2021
+    },
+    {
+        "NAME": "Vermont",
+        "B01003_001E": "641637",
+        "state": "50",
+        "Year": 2021
+    },
+    {
+        "NAME": "Virginia",
+        "B01003_001E": "8582479",
+        "state": "51",
+        "Year": 2021
+    },
+    {
+        "NAME": "Washington",
+        "B01003_001E": "7617364",
+        "state": "53",
+        "Year": 2021
+    },
+    {
+        "NAME": "West Virginia",
+        "B01003_001E": "1801049",
+        "state": "54",
+        "Year": 2021
+    },
+    {
+        "NAME": "Wisconsin",
+        "B01003_001E": "5871661",
+        "state": "55",
+        "Year": 2021
+    },
+    {
+        "NAME": "Wyoming",
+        "B01003_001E": "576641",
+        "state": "56",
+        "Year": 2021
+    },
+    {
+        "NAME": "Puerto Rico",
+        "B01003_001E": "3311274",
+        "state": "72",
+        "Year": 2021
+    },
+    {
+        "NAME": "Pennsylvania",
+        "B01003_001E": "12794885",
+        "state": "42",
+        "Year": 2020
+    },
+    {
+        "NAME": "California",
+        "B01003_001E": "39346023",
+        "state": "06",
+        "Year": 2020
+    },
+    {
+        "NAME": "West Virginia",
+        "B01003_001E": "1807426",
+        "state": "54",
+        "Year": 2020
+    },
+    {
+        "NAME": "Utah",
+        "B01003_001E": "3151239",
+        "state": "49",
+        "Year": 2020
+    },
+    {
+        "NAME": "New York",
+        "B01003_001E": "19514849",
+        "state": "36",
+        "Year": 2020
+    },
+    {
+        "NAME": "District of Columbia",
+        "B01003_001E": "701974",
+        "state": "11",
+        "Year": 2020
+    },
+    {
+        "NAME": "Alaska",
+        "B01003_001E": "736990",
+        "state": "02",
+        "Year": 2020
+    },
+    {
+        "NAME": "Florida",
+        "B01003_001E": "21216924",
+        "state": "12",
+        "Year": 2020
+    },
+    {
+        "NAME": "South Carolina",
+        "B01003_001E": "5091517",
+        "state": "45",
+        "Year": 2020
+    },
+    {
+        "NAME": "North Dakota",
+        "B01003_001E": "760394",
+        "state": "38",
+        "Year": 2020
+    },
+    {
+        "NAME": "Maine",
+        "B01003_001E": "1340825",
+        "state": "23",
+        "Year": 2020
+    },
+    {
+        "NAME": "Georgia",
+        "B01003_001E": "10516579",
+        "state": "13",
+        "Year": 2020
+    },
+    {
+        "NAME": "Alabama",
+        "B01003_001E": "4893186",
+        "state": "01",
+        "Year": 2020
+    },
+    {
+        "NAME": "New Hampshire",
+        "B01003_001E": "1355244",
+        "state": "33",
+        "Year": 2020
+    },
+    {
+        "NAME": "Oregon",
+        "B01003_001E": "4176346",
+        "state": "41",
+        "Year": 2020
+    },
+    {
+        "NAME": "Wyoming",
+        "B01003_001E": "581348",
+        "state": "56",
+        "Year": 2020
+    },
+    {
+        "NAME": "Arizona",
+        "B01003_001E": "7174064",
+        "state": "04",
+        "Year": 2020
+    },
+    {
+        "NAME": "Louisiana",
+        "B01003_001E": "4664616",
+        "state": "22",
+        "Year": 2020
+    },
+    {
+        "NAME": "Indiana",
+        "B01003_001E": "6696893",
+        "state": "18",
+        "Year": 2020
+    },
+    {
+        "NAME": "Idaho",
+        "B01003_001E": "1754367",
+        "state": "16",
+        "Year": 2020
+    },
+    {
+        "NAME": "Connecticut",
+        "B01003_001E": "3570549",
+        "state": "09",
+        "Year": 2020
+    },
+    {
+        "NAME": "Hawaii",
+        "B01003_001E": "1420074",
+        "state": "15",
+        "Year": 2020
+    },
+    {
+        "NAME": "Illinois",
+        "B01003_001E": "12716164",
+        "state": "17",
+        "Year": 2020
+    },
+    {
+        "NAME": "Massachusetts",
+        "B01003_001E": "6873003",
+        "state": "25",
+        "Year": 2020
+    },
+    {
+        "NAME": "Texas",
+        "B01003_001E": "28635442",
+        "state": "48",
+        "Year": 2020
+    },
+    {
+        "NAME": "Montana",
+        "B01003_001E": "1061705",
+        "state": "30",
+        "Year": 2020
+    },
+    {
+        "NAME": "Nebraska",
+        "B01003_001E": "1923826",
+        "state": "31",
+        "Year": 2020
+    },
+    {
+        "NAME": "Ohio",
+        "B01003_001E": "11675275",
+        "state": "39",
+        "Year": 2020
+    },
+    {
+        "NAME": "Colorado",
+        "B01003_001E": "5684926",
+        "state": "08",
+        "Year": 2020
+    },
+    {
+        "NAME": "New Jersey",
+        "B01003_001E": "8885418",
+        "state": "34",
+        "Year": 2020
+    },
+    {
+        "NAME": "Maryland",
+        "B01003_001E": "6037624",
+        "state": "24",
+        "Year": 2020
+    },
+    {
+        "NAME": "Virginia",
+        "B01003_001E": "8509358",
+        "state": "51",
+        "Year": 2020
+    },
+    {
+        "NAME": "Vermont",
+        "B01003_001E": "624340",
+        "state": "50",
+        "Year": 2020
+    },
+    {
+        "NAME": "North Carolina",
+        "B01003_001E": "10386227",
+        "state": "37",
+        "Year": 2020
+    },
+    {
+        "NAME": "Arkansas",
+        "B01003_001E": "3011873",
+        "state": "05",
+        "Year": 2020
+    },
+    {
+        "NAME": "Washington",
+        "B01003_001E": "7512465",
+        "state": "53",
+        "Year": 2020
+    },
+    {
+        "NAME": "Kansas",
+        "B01003_001E": "2912619",
+        "state": "20",
+        "Year": 2020
+    },
+    {
+        "NAME": "Oklahoma",
+        "B01003_001E": "3949342",
+        "state": "40",
+        "Year": 2020
+    },
+    {
+        "NAME": "Wisconsin",
+        "B01003_001E": "5806975",
+        "state": "55",
+        "Year": 2020
+    },
+    {
+        "NAME": "Mississippi",
+        "B01003_001E": "2981835",
+        "state": "28",
+        "Year": 2020
+    },
+    {
+        "NAME": "Missouri",
+        "B01003_001E": "6124160",
+        "state": "29",
+        "Year": 2020
+    },
+    {
+        "NAME": "Michigan",
+        "B01003_001E": "9973907",
+        "state": "26",
+        "Year": 2020
+    },
+    {
+        "NAME": "Rhode Island",
+        "B01003_001E": "1057798",
+        "state": "44",
+        "Year": 2020
+    },
+    {
+        "NAME": "Minnesota",
+        "B01003_001E": "5600166",
+        "state": "27",
+        "Year": 2020
+    },
+    {
+        "NAME": "Iowa",
+        "B01003_001E": "3150011",
+        "state": "19",
+        "Year": 2020
+    },
+    {
+        "NAME": "New Mexico",
+        "B01003_001E": "2097021",
+        "state": "35",
+        "Year": 2020
+    },
+    {
+        "NAME": "Nevada",
+        "B01003_001E": "3030281",
+        "state": "32",
+        "Year": 2020
+    },
+    {
+        "NAME": "Delaware",
+        "B01003_001E": "967679",
+        "state": "10",
+        "Year": 2020
+    },
+    {
+        "NAME": "Puerto Rico",
+        "B01003_001E": "3255642",
+        "state": "72",
+        "Year": 2020
+    },
+    {
+        "NAME": "Kentucky",
+        "B01003_001E": "4461952",
+        "state": "21",
+        "Year": 2020
+    },
+    {
+        "NAME": "South Dakota",
+        "B01003_001E": "879336",
+        "state": "46",
+        "Year": 2020
+    },
+    {
+        "NAME": "Tennessee",
+        "B01003_001E": "6772268",
+        "state": "47",
+        "Year": 2020
+    },
+    {
+        "NAME": "Alabama",
+        "B01003_001E": "4876250",
+        "state": "01",
+        "Year": 2019
+    },
+    {
+        "NAME": "Alaska",
+        "B01003_001E": "737068",
+        "state": "02",
+        "Year": 2019
+    },
+    {
+        "NAME": "Arizona",
+        "B01003_001E": "7050299",
+        "state": "04",
+        "Year": 2019
+    },
+    {
+        "NAME": "Arkansas",
+        "B01003_001E": "2999370",
+        "state": "05",
+        "Year": 2019
+    },
+    {
+        "NAME": "California",
+        "B01003_001E": "39283497",
+        "state": "06",
+        "Year": 2019
+    },
+    {
+        "NAME": "Colorado",
+        "B01003_001E": "5610349",
+        "state": "08",
+        "Year": 2019
+    },
+    {
+        "NAME": "Delaware",
+        "B01003_001E": "957248",
+        "state": "10",
+        "Year": 2019
+    },
+    {
+        "NAME": "District of Columbia",
+        "B01003_001E": "692683",
+        "state": "11",
+        "Year": 2019
+    },
+    {
+        "NAME": "Connecticut",
+        "B01003_001E": "3575074",
+        "state": "09",
+        "Year": 2019
+    },
+    {
+        "NAME": "Florida",
+        "B01003_001E": "20901636",
+        "state": "12",
+        "Year": 2019
+    },
+    {
+        "NAME": "Georgia",
+        "B01003_001E": "10403847",
+        "state": "13",
+        "Year": 2019
+    },
+    {
+        "NAME": "Idaho",
+        "B01003_001E": "1717750",
+        "state": "16",
+        "Year": 2019
+    },
+    {
+        "NAME": "Hawaii",
+        "B01003_001E": "1422094",
+        "state": "15",
+        "Year": 2019
+    },
+    {
+        "NAME": "Illinois",
+        "B01003_001E": "12770631",
+        "state": "17",
+        "Year": 2019
+    },
+    {
+        "NAME": "Indiana",
+        "B01003_001E": "6665703",
+        "state": "18",
+        "Year": 2019
+    },
+    {
+        "NAME": "Iowa",
+        "B01003_001E": "3139508",
+        "state": "19",
+        "Year": 2019
+    },
+    {
+        "NAME": "Kansas",
+        "B01003_001E": "2910652",
+        "state": "20",
+        "Year": 2019
+    },
+    {
+        "NAME": "Kentucky",
+        "B01003_001E": "4449052",
+        "state": "21",
+        "Year": 2019
+    },
+    {
+        "NAME": "Louisiana",
+        "B01003_001E": "4664362",
+        "state": "22",
+        "Year": 2019
+    },
+    {
+        "NAME": "Maine",
+        "B01003_001E": "1335492",
+        "state": "23",
+        "Year": 2019
+    },
+    {
+        "NAME": "Maryland",
+        "B01003_001E": "6018848",
+        "state": "24",
+        "Year": 2019
+    },
+    {
+        "NAME": "Massachusetts",
+        "B01003_001E": "6850553",
+        "state": "25",
+        "Year": 2019
+    },
+    {
+        "NAME": "Michigan",
+        "B01003_001E": "9965265",
+        "state": "26",
+        "Year": 2019
+    },
+    {
+        "NAME": "Minnesota",
+        "B01003_001E": "5563378",
+        "state": "27",
+        "Year": 2019
+    },
+    {
+        "NAME": "Mississippi",
+        "B01003_001E": "2984418",
+        "state": "28",
+        "Year": 2019
+    },
+    {
+        "NAME": "Missouri",
+        "B01003_001E": "6104910",
+        "state": "29",
+        "Year": 2019
+    },
+    {
+        "NAME": "Montana",
+        "B01003_001E": "1050649",
+        "state": "30",
+        "Year": 2019
+    },
+    {
+        "NAME": "Nebraska",
+        "B01003_001E": "1914571",
+        "state": "31",
+        "Year": 2019
+    },
+    {
+        "NAME": "Nevada",
+        "B01003_001E": "2972382",
+        "state": "32",
+        "Year": 2019
+    },
+    {
+        "NAME": "New Hampshire",
+        "B01003_001E": "1348124",
+        "state": "33",
+        "Year": 2019
+    },
+    {
+        "NAME": "New Jersey",
+        "B01003_001E": "8878503",
+        "state": "34",
+        "Year": 2019
+    },
+    {
+        "NAME": "New Mexico",
+        "B01003_001E": "2092454",
+        "state": "35",
+        "Year": 2019
+    },
+    {
+        "NAME": "New York",
+        "B01003_001E": "19572319",
+        "state": "36",
+        "Year": 2019
+    },
+    {
+        "NAME": "North Carolina",
+        "B01003_001E": "10264876",
+        "state": "37",
+        "Year": 2019
+    },
+    {
+        "NAME": "North Dakota",
+        "B01003_001E": "756717",
+        "state": "38",
+        "Year": 2019
+    },
+    {
+        "NAME": "Ohio",
+        "B01003_001E": "11655397",
+        "state": "39",
+        "Year": 2019
+    },
+    {
+        "NAME": "Oklahoma",
+        "B01003_001E": "3932870",
+        "state": "40",
+        "Year": 2019
+    },
+    {
+        "NAME": "Oregon",
+        "B01003_001E": "4129803",
+        "state": "41",
+        "Year": 2019
+    },
+    {
+        "NAME": "Pennsylvania",
+        "B01003_001E": "12791530",
+        "state": "42",
+        "Year": 2019
+    },
+    {
+        "NAME": "Rhode Island",
+        "B01003_001E": "1057231",
+        "state": "44",
+        "Year": 2019
+    },
+    {
+        "NAME": "South Carolina",
+        "B01003_001E": "5020806",
+        "state": "45",
+        "Year": 2019
+    },
+    {
+        "NAME": "South Dakota",
+        "B01003_001E": "870638",
+        "state": "46",
+        "Year": 2019
+    },
+    {
+        "NAME": "Tennessee",
+        "B01003_001E": "6709356",
+        "state": "47",
+        "Year": 2019
+    },
+    {
+        "NAME": "Texas",
+        "B01003_001E": "28260856",
+        "state": "48",
+        "Year": 2019
+    },
+    {
+        "NAME": "Vermont",
+        "B01003_001E": "624313",
+        "state": "50",
+        "Year": 2019
+    },
+    {
+        "NAME": "Utah",
+        "B01003_001E": "3096848",
+        "state": "49",
+        "Year": 2019
+    },
+    {
+        "NAME": "Virginia",
+        "B01003_001E": "8454463",
+        "state": "51",
+        "Year": 2019
+    },
+    {
+        "NAME": "Washington",
+        "B01003_001E": "7404107",
+        "state": "53",
+        "Year": 2019
+    },
+    {
+        "NAME": "West Virginia",
+        "B01003_001E": "1817305",
+        "state": "54",
+        "Year": 2019
+    },
+    {
+        "NAME": "Wisconsin",
+        "B01003_001E": "5790716",
+        "state": "55",
+        "Year": 2019
+    },
+    {
+        "NAME": "Wyoming",
+        "B01003_001E": "581024",
+        "state": "56",
+        "Year": 2019
+    },
+    {
+        "NAME": "Puerto Rico",
+        "B01003_001E": "3318447",
+        "state": "72",
+        "Year": 2019
+    },
+    {
+        "NAME": "Mississippi",
+        "B01003_001E": "2988762",
+        "state": "28",
+        "Year": 2018
+    },
+    {
+        "NAME": "Missouri",
+        "B01003_001E": "6090062",
+        "state": "29",
+        "Year": 2018
+    },
+    {
+        "NAME": "Montana",
+        "B01003_001E": "1041732",
+        "state": "30",
+        "Year": 2018
+    },
+    {
+        "NAME": "Nebraska",
+        "B01003_001E": "1904760",
+        "state": "31",
+        "Year": 2018
+    },
+    {
+        "NAME": "Nevada",
+        "B01003_001E": "2922849",
+        "state": "32",
+        "Year": 2018
+    },
+    {
+        "NAME": "New Hampshire",
+        "B01003_001E": "1343622",
+        "state": "33",
+        "Year": 2018
+    },
+    {
+        "NAME": "New Jersey",
+        "B01003_001E": "8881845",
+        "state": "34",
+        "Year": 2018
+    },
+    {
+        "NAME": "New Mexico",
+        "B01003_001E": "2092434",
+        "state": "35",
+        "Year": 2018
+    },
+    {
+        "NAME": "New York",
+        "B01003_001E": "19618453",
+        "state": "36",
+        "Year": 2018
+    },
+    {
+        "NAME": "North Carolina",
+        "B01003_001E": "10155624",
+        "state": "37",
+        "Year": 2018
+    },
+    {
+        "NAME": "North Dakota",
+        "B01003_001E": "752201",
+        "state": "38",
+        "Year": 2018
+    },
+    {
+        "NAME": "Ohio",
+        "B01003_001E": "11641879",
+        "state": "39",
+        "Year": 2018
+    },
+    {
+        "NAME": "Oklahoma",
+        "B01003_001E": "3918137",
+        "state": "40",
+        "Year": 2018
+    },
+    {
+        "NAME": "Oregon",
+        "B01003_001E": "4081943",
+        "state": "41",
+        "Year": 2018
+    },
+    {
+        "NAME": "Pennsylvania",
+        "B01003_001E": "12791181",
+        "state": "42",
+        "Year": 2018
+    },
+    {
+        "NAME": "Rhode Island",
+        "B01003_001E": "1056611",
+        "state": "44",
+        "Year": 2018
+    },
+    {
+        "NAME": "South Carolina",
+        "B01003_001E": "4955925",
+        "state": "45",
+        "Year": 2018
+    },
+    {
+        "NAME": "South Dakota",
+        "B01003_001E": "864289",
+        "state": "46",
+        "Year": 2018
+    },
+    {
+        "NAME": "Tennessee",
+        "B01003_001E": "6651089",
+        "state": "47",
+        "Year": 2018
+    },
+    {
+        "NAME": "Texas",
+        "B01003_001E": "27885195",
+        "state": "48",
+        "Year": 2018
+    },
+    {
+        "NAME": "Vermont",
+        "B01003_001E": "624977",
+        "state": "50",
+        "Year": 2018
+    },
+    {
+        "NAME": "Utah",
+        "B01003_001E": "3045350",
+        "state": "49",
+        "Year": 2018
+    },
+    {
+        "NAME": "Virginia",
+        "B01003_001E": "8413774",
+        "state": "51",
+        "Year": 2018
+    },
+    {
+        "NAME": "Washington",
+        "B01003_001E": "7294336",
+        "state": "53",
+        "Year": 2018
+    },
+    {
+        "NAME": "West Virginia",
+        "B01003_001E": "1829054",
+        "state": "54",
+        "Year": 2018
+    },
+    {
+        "NAME": "Wisconsin",
+        "B01003_001E": "5778394",
+        "state": "55",
+        "Year": 2018
+    },
+    {
+        "NAME": "Wyoming",
+        "B01003_001E": "581836",
+        "state": "56",
+        "Year": 2018
+    },
+    {
+        "NAME": "Puerto Rico",
+        "B01003_001E": "3386941",
+        "state": "72",
+        "Year": 2018
+    },
+    {
+        "NAME": "Alabama",
+        "B01003_001E": "4864680",
+        "state": "01",
+        "Year": 2018
+    },
+    {
+        "NAME": "Alaska",
+        "B01003_001E": "738516",
+        "state": "02",
+        "Year": 2018
+    },
+    {
+        "NAME": "Arizona",
+        "B01003_001E": "6946685",
+        "state": "04",
+        "Year": 2018
+    },
+    {
+        "NAME": "Arkansas",
+        "B01003_001E": "2990671",
+        "state": "05",
+        "Year": 2018
+    },
+    {
+        "NAME": "California",
+        "B01003_001E": "39148760",
+        "state": "06",
+        "Year": 2018
+    },
+    {
+        "NAME": "Colorado",
+        "B01003_001E": "5531141",
+        "state": "08",
+        "Year": 2018
+    },
+    {
+        "NAME": "Delaware",
+        "B01003_001E": "949495",
+        "state": "10",
+        "Year": 2018
+    },
+    {
+        "NAME": "District of Columbia",
+        "B01003_001E": "684498",
+        "state": "11",
+        "Year": 2018
+    },
+    {
+        "NAME": "Connecticut",
+        "B01003_001E": "3581504",
+        "state": "09",
+        "Year": 2018
+    },
+    {
+        "NAME": "Florida",
+        "B01003_001E": "20598139",
+        "state": "12",
+        "Year": 2018
+    },
+    {
+        "NAME": "Georgia",
+        "B01003_001E": "10297484",
+        "state": "13",
+        "Year": 2018
+    },
+    {
+        "NAME": "Idaho",
+        "B01003_001E": "1687809",
+        "state": "16",
+        "Year": 2018
+    },
+    {
+        "NAME": "Hawaii",
+        "B01003_001E": "1422029",
+        "state": "15",
+        "Year": 2018
+    },
+    {
+        "NAME": "Illinois",
+        "B01003_001E": "12821497",
+        "state": "17",
+        "Year": 2018
+    },
+    {
+        "NAME": "Indiana",
+        "B01003_001E": "6637426",
+        "state": "18",
+        "Year": 2018
+    },
+    {
+        "NAME": "Iowa",
+        "B01003_001E": "3132499",
+        "state": "19",
+        "Year": 2018
+    },
+    {
+        "NAME": "Kansas",
+        "B01003_001E": "2908776",
+        "state": "20",
+        "Year": 2018
+    },
+    {
+        "NAME": "Kentucky",
+        "B01003_001E": "4440204",
+        "state": "21",
+        "Year": 2018
+    },
+    {
+        "NAME": "Louisiana",
+        "B01003_001E": "4663616",
+        "state": "22",
+        "Year": 2018
+    },
+    {
+        "NAME": "Maine",
+        "B01003_001E": "1332813",
+        "state": "23",
+        "Year": 2018
+    },
+    {
+        "NAME": "Maryland",
+        "B01003_001E": "6003435",
+        "state": "24",
+        "Year": 2018
+    },
+    {
+        "NAME": "Massachusetts",
+        "B01003_001E": "6830193",
+        "state": "25",
+        "Year": 2018
+    },
+    {
+        "NAME": "Michigan",
+        "B01003_001E": "9957488",
+        "state": "26",
+        "Year": 2018
+    },
+    {
+        "NAME": "Minnesota",
+        "B01003_001E": "5527358",
+        "state": "27",
+        "Year": 2018
+    }
+]
